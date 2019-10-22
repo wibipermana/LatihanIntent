@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv1"
+        android:text="NIM"
+        android:textSize="24dp"/>
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv2"
+        android:text="Nama"
+        android:textSize="24dp"
+        android:layout_below="@id/tv1"/>
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv3"
+        android:text="Nilai"
+        android:textSize="24dp"
+        android:layout_below="@id/tv2"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_data1"
+        android:textSize="24dp"
+        android:layout_toRightOf="@id/tv1"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_data2"
+        android:textSize="24dp"
+        android:layout_below="@id/tv_data1"
+        android:layout_toRightOf="@id/tv2"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_data3"
+        android:textSize="24dp"
+        android:layout_below="@id/tv_data2"
+        android:layout_toRightOf="@id/tv3"/>
+</RelativeLayout>
